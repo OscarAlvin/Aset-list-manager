@@ -1,0 +1,32 @@
+{
+  "86863464-9571-4db4-b705-e8610dbd25b9": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://svhtv.sharepoint.com/sites/powerapp-sharepointlist": {
+        "dataSources": {
+          "Asset list manager": {
+            "tableName": "cb252b00-1ad7-4959-9799-97287b1f8005"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Asset list manager"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "86863464-9571-4db4-b705-e8610dbd25b9"
+  }
+}
